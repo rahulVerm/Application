@@ -1,0 +1,42 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "homepage": "https://github.com/rahulVerm/ReactApp",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "predeploy": "yarn start deploy",
+    "deploy": "gh-pages -d build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "antd": "^3.2.0",
+    "axios": "^0.17.1",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-1": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "bootstrap": "^4.1.1",
+    "chart.js": "^2.7.2",
+    "css-loader": "^0.28.11",
+    "gh-pages": "^1.2.0",
+    "history": "^4.7.2",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.3",
+    "prop-types": "^15.6.2",
+    "react": "^16.2.0",
+    "react-bootstrap": "^0.32.1",
+    "react-bootstrap-table": "^4.3.1",
+    "react-chartjs-2": "^2.7.2",
+    "react-dom": "^16.2.0",
+    "react-router-dom": "^4.3.1",
+    "style-loader": "^0.21.0",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.11.1"
+  }
+}
